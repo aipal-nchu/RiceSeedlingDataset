@@ -3,13 +3,13 @@ A repository to open rice shoot counting dataset.
 
 
 ## Data Download link (Google Drive)
-#### [RiceShootClassification.tgz](https://drive.google.com/file/d/1DcNYGvZfOrFhQAvnX_MFbo7UUzWAvfcc/view?usp=sharing)
+#### [RiceShootClassification.tgz](https://rebrand.ly/RiceshootclassificationTgz85fd7)
 > This file includes three folders: riceshoot, grass, bareland. Train-val and test datasets are included.
 
-#### [RiceShootCouning.tgz](https://drive.google.com/file/d/1De2BCy5_-egHfmoCNvGNkXmZURb_SMm5/view?usp=sharing)
+#### [RiceShootCouning.tgz](https://rebrand.ly/RiceshootcountingTgzE3355)
 > This file contains 8 detection demo images.
 
-#### [2018-08-07_ARI80_20m_Ortho.tif](https://drive.google.com/file/d/1vjozgFLHiKVRO2Ib2j8qttiI3_PPl0oJ/view?usp=sharing)
+#### [2018-08-07_ARI80_20m_Ortho.tif](https://rebrand.ly/OrthoTif7b85b)
 > This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection.
 
 ## Rice Shoot Dataset
@@ -63,14 +63,3 @@ This dataset is used for patch-based object-detection scenario.
 |**Prediction**  |814 |1009|1038|913 |959 |1023|1011|1015|
 |**Ground truth**|898 |1000|1019|964 |971 |1002|1033|1005|
 |**Error (%)**   |9.35|0.90|1.86|5.29|1.24|2.10|2.13|1.00|
-
-
-## Download link (Google Drive)
-#### [RiceShootClassification.tgz](https://drive.google.com/file/d/1DcNYGvZfOrFhQAvnX_MFbo7UUzWAvfcc/view?usp=sharing)
-> This file includes three folders: riceshoot, grass, bareland. Train-val and test datasets are included.
-
-#### [RiceShootCouning.tgz](https://drive.google.com/file/d/1De2BCy5_-egHfmoCNvGNkXmZURb_SMm5/view?usp=sharing)
-> This file contains 8 detection demo images.
-
-#### [2018-08-07_ARI80_20m_Ortho.tif](https://drive.google.com/file/d/1vjozgFLHiKVRO2Ib2j8qttiI3_PPl0oJ/view?usp=sharing)
-> This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection.
