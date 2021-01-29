@@ -4,32 +4,31 @@ A repository to open rice shoot counting dataset.
 
 ## Data Download link (Google Drive)
 #### [RiceShootClassification.tgz](https://rebrand.ly/RiceshootclassificationTgz85fd7)
-> This file includes three folders: riceshoot, grass, bareland. Train-val and test datasets are included.
+> This file includes two folders: riceshoot and bareland. Train-val and test datasets are included.
 
 #### [RiceShootCouning.tgz](https://rebrand.ly/RiceshootcountingTgzE3355)
 > This file contains 8 detection demo images.
 
-#### [2018-08-07_ARI80_20m_Ortho.tif](https://rebrand.ly/OrthoTif7b85b)
+#### [2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)
 > This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection.
 
 ## Rice Shoot Dataset
-  This dataset contains three classes: 
+  This dataset contains two classes: 
    - `rice shoot`
-   - `grass`
    - `bare land`
 
 **An overview of image dataset**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/dataset.jpg" width="784" height="305">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images\dataset.png" width="784" height="305">
 
 
 
 **The number of images used for training, validation, and testing in the rice shoot dataset.**
 | Class       | Training Samples | Validation Samples | Testing Samples | Total Samples |
 |:-----------:|:----------------:|:------------------:|:---------------:|:-------------:|
-| **Rice Shoot**  | 22,438 | 561   | 5,048  | 28,047 |
-| **Grass**       | 15,006 | 375   | 3,376  | 18,757 |
-| **Bare Land**   | 21,265 | 532   | 4,784  | 26,581 |
-| **Total**       | 58,709 | 1,468 | 13,208 | 73,385 |
+| **Rice Shoot**  | 22,438 | 561   | 5,048 | 28,047 |
+| **Bare Land**   | 21,265 | 532   | 4,784 | 26,581 |
+| **Total**       | 43,703 | 1,093 | 9,832 | 54,628 |  
+
 
 ## A Simple Example of CNN Classification Model
 **The architecture of the proposed network for rice shoot classification**
