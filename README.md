@@ -20,7 +20,7 @@ A repository to open rice shoot counting dataset.
 > This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection. Image size is 19406 x 10413 pixels.  
 
 **An overview of the region of different datasets**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Datasets_Area_Overview.png" width="784" height="496">  
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Datasets_Area_Overview.png" width="768">  
 > An overview of the field no. 80 (cyan bounding area) in TARI, Taichung. Image acquired on August 7, 2018. The green bounding area represents the area for training-validation dataset, and the red bounding area represents the area for object detection demonstration dataset.
 
 ## Rice Shoot Dataset
@@ -29,7 +29,7 @@ A repository to open rice shoot counting dataset.
    - `bare land`
 
 **An overview of image dataset**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/dataset.png" width="784" height="293">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/dataset.png" width="768">
 
 
 
@@ -43,7 +43,7 @@ A repository to open rice shoot counting dataset.
 
 ## A Simple Example of CNN Classification Model
 **The architecture of the proposed network for rice shoot classification**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Network Architechture-2class.png" width="784" height="371">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Network Architechture-2class.png" width="768">
 
 ## Detection Demo Dataset
 This dataset is used for patch-based object-detection scenario.  
@@ -53,19 +53,19 @@ This dataset is used for patch-based object-detection scenario.
 - PASCAL VOC xml format annotation.
 
 **An overview of 8 detection demo images**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/DemoClip.png" width="784" height="303">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/DemoClip.png" width="768">
 
 
 | number | original image | result image |
 |:-:|:-:|:-:|
-|1|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_bbox.jpg" width="300" height="300">|
-|2|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_bbox.jpg" width="300" height="300">|
-|3|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/3.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/3_bbox.jpg" width="300" height="300">|
-|4|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/4.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/4_bbox.jpg" width="300" height="300">|
-|5|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/5.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/5_bbox.jpg" width="300" height="300">|
-|6|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/6.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/6_bbox.jpg" width="300" height="300">|
-|7|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/7.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/7_bbox.jpg" width="300" height="300">|
-|8|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8.jpg" width="300" height="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8_bbox.jpg" width="300" height="300">|
+|1|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_bbox.jpg" width="300">|
+|2|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_bbox.jpg" width="300">|
+|3|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/3.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/3_bbox.jpg" width="300">|
+|4|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/4.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/4_bbox.jpg" width="300">|
+|5|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/5.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/5_bbox.jpg" width="300">|
+|6|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/6.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/6_bbox.jpg" width="300">|
+|7|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/7.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/7_bbox.jpg" width="300">|
+|8|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8_bbox.jpg" width="300">|
 
 **Comparison of Detection Result and Ground Truth**
 | Image No. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
