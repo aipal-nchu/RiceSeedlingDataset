@@ -4,10 +4,10 @@ A repository to open rice shoot counting dataset.
 ---
 
 ## Contents
-  - [Data Download Link (Google Drive)](#data-download-link-google-drive)
-  - [Rice Shoot Dataset](#rice-shoot-dataset)
-  - [CNN Classification Model](#a-simple-example-of-cnn-classification-model)
-  - [Detection Demo Dataset](#detection-demo-dataset)
+  1. [Data Download Link (Google Drive)](#data-download-link-google-drive)
+  2. [Rice Shoot Dataset](#rice-shoot-dataset)
+  3. [CNN Classification Model](#a-simple-example-of-cnn-classification-model)
+  4. [Detection Demo Dataset](#detection-demo-dataset)
 
 ## Data Download Link (Google Drive)
 **[RiceShootClassification_2class.tgz (uncompressed size 426MB)](https://rebrand.ly/riceshootdataset_2class)**
