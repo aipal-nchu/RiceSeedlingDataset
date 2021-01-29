@@ -1,16 +1,27 @@
-# Rice Shoot Counting
-A repository to open rice shoot counting dataset.
+# Rice Shoot Counting Datasets
+A repository to open rice shoot counting dataset.  
 
+---
 
-## Data Download link (Google Drive)
-#### [RiceShootClassification.tgz](https://rebrand.ly/RiceshootclassificationTgz85fd7)
-> This file includes two folders: riceshoot and bareland. Train-val and test datasets are included.
+## Contents
+  - [Data Download Link (Google Drive)](#data-download-link-google-drive)
+  - [Rice Shoot Dataset](#rice-shoot-dataset)
+  - [CNN Classification Model](#a-simple-example-of-cnn-classification-model)
+  - [Detection Demo Dataset](#detection-demo-dataset)
 
-#### [RiceShootCouning.tgz](https://rebrand.ly/RiceshootcountingTgzE3355)
-> This file contains 8 detection demo images.
+## Data Download Link (Google Drive)
+**[RiceShootClassification_2class.tgz (uncompressed size 426MB)](https://rebrand.ly/riceshootdataset_2class)**
+> This file includes two folders: riceshoot and bareland. Train-val and test datasets are all included.
 
-#### [2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)
-> This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection.
+**[RiceShootCouning.tgz (uncompressed size 48.5MB)](https://rebrand.ly/RiceshootcountingTgzE3355)**
+> This file contains 8 detection demo images and the corresponging PASCAL VOC xml format annotations.
+
+**[2018-08-07_ARI80_20m_Orthomosaic.tif (size 465MB)](https://rebrand.ly/20180807ARI80Orthomosaic)**
+> This is the orthomosaic image of the field of number 80, TARI, with TWD97 / TM2 zone 121 (EPSG:3826) projection. Image size is 19406 x 10413 pixels.  
+
+**An overview of the region of different datasets**
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Datasets_Area_Overview.png" width="784" height="496">  
+> An overview of the field no. 80 (cyan bounding area) in TARI, Taichung. Image acquired on August 7, 2018. The green bounding area represents the area for training-validation dataset, and the red bounding area represents the area for object detection demonstration dataset.
 
 ## Rice Shoot Dataset
   This dataset contains two classes: 
@@ -18,7 +29,7 @@ A repository to open rice shoot counting dataset.
    - `bare land`
 
 **An overview of image dataset**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images\dataset.png" width="784" height="305">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/dataset.png" width="784" height="293">
 
 
 
@@ -32,7 +43,7 @@ A repository to open rice shoot counting dataset.
 
 ## A Simple Example of CNN Classification Model
 **The architecture of the proposed network for rice shoot classification**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Network_Architechture.jpg" width="784" height="371">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Network Architechture-2class.png" width="784" height="371">
 
 ## Detection Demo Dataset
 This dataset is used for patch-based object-detection scenario.  
