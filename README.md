@@ -56,7 +56,7 @@ This dataset is used for patch-based object-detection scenario.
 <img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/DemoClip.png" width="768">
 
 
-| Image Number | Original Image | Prediction Image | Ground Truth Image|
+| Image Number | Raw Image | Prediction Image | Ground Truth Image|
 |:-:|:-:|:-:|:-:|
 |1|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_GT.jpg" width="300">|
 |2|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_GT.jpg" width="300">|
@@ -70,6 +70,6 @@ This dataset is used for patch-based object-detection scenario.
 **Comparison of Detection Result and Ground Truth**
 | Image Number | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|**Prediction**  |814 |1009|1038|913 |959 |1023|1011|1015|
+|**Prediction**  |735 |1006|1037|809 |1004|1050|1017|1032|
 |**Ground truth**|898 |1000|1019|964 |971 |1002|1033|1005|
-|**Error (%)**   |9.35|0.90|1.86|5.29|1.24|2.10|2.13|1.00|
+|**Error (%)**   |**18.15**|0.60|1.77|**16.08**|3.40|4.79|1.55|2.69|
