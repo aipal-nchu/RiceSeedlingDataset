@@ -4,16 +4,16 @@ A repository to open rice shoot counting dataset.
 ---
 
 ## Contents
-  1. [Data Download Link (Google Drive)](#data-download-link-google-drive)
-  2. [Rice Shoot Dataset](#rice-shoot-dataset)
-  3. [CNN Classification Model](#a-simple-example-of-cnn-classification-model)
-  4. [Detection Demo Dataset](#detection-demo-dataset)
+  1. [Data Download Link (Google Drive)](#1-data-download-link-google-drive)
+  2. [Rice Shoot Dataset](#2-rice-shoot-dataset)
+  3. [CNN Classification Model](#3-a-simple-example-of-cnn-classification-model)
+  4. [Detection Demo Dataset](#4-detection-demo-dataset)
 
-## Data Download Link (Google Drive)  
+## 1. Data Download Link (Google Drive)  
 ### Orthomosaic image
 >|Filename|Disk space|Image size|Spatial resolution|
 >|:-:|:-:|:-:|:-:|
->|**[2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)**|465MB|19406 x 10413| 5.23 mm/pixel|
+>|**[2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)**|465MB|19406 x 10413| 5.23 mm/pixel |
 >|**[2018-08-14_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180814ARI80Orthomosaic)**|610MB|19876 x 10687| 5.11 mm/pixel |
 >|**[2018-08-23_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180823ARI80Orthomosaic)**|557MB|18294 x 9823 | 5.55 mm/pixel |  
 
@@ -31,7 +31,7 @@ A repository to open rice shoot counting dataset.
 <img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Datasets_Area_Overview.png" width="768">  
 > An overview of the field no. 80 (cyan bounding area) in TARI, Taichung. Image acquired on August 7, 2018. The green bounding area represents the area for training-validation dataset, and the red bounding area represents the area for object detection demonstration dataset.  
 
-## Rice Shoot Dataset
+## 2. Rice Shoot Dataset
   This dataset contains two classes: 
    - `rice shoot`
    - `bare land`
@@ -48,7 +48,7 @@ A repository to open rice shoot counting dataset.
 | **Bare Land**   | 21,265 | 532   | 4,784 | 26,581 |
 | **Total**       | 43,703 | 1,093 | 9,832 | 54,628 |  
 
-## A Simple Example of CNN Classification Model
+## 3. A Simple Example of CNN Classification Model
 **The architecture of the proposed network for rice shoot classification**
 <img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Network Architechture-2class.png" width="768">
 
@@ -70,7 +70,7 @@ The environments for the experiments are:
   
 To test the provided model, simply call the `tf.keras.models.load_model()` and you're ready.
 
-## Detection Demo Dataset
+## 4. Detection Demo Dataset
 This dataset is used for patch-based object-detection scenario.  
 - 8 images
 - 8x8 meters region
