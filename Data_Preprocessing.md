@@ -21,7 +21,7 @@ Images are stiched using [Agisoft Metashape](https://www.agisoft.com/) from a se
 ### 2. Calculate Index  
 The excess green minus excess red (ExGR) index is introduced to enhance the feature of vegatation.  
 
-<img src="https://latex.codecogs.com/svg.latex?ExGR%20=%203\times%20G-2.4\times%20R-G" width="200">  
+<img src="https://latex.codecogs.com/svg.latex?ExGR%20=%203\times%20G-2.4\times%20R-B" width="200">  
 
 ### 3. Image Binarization
 [Yen’s thresholding method](https://dx.doi.org/10.1109/83.366472) was applied to obtain a binary map. In practice, we adopted the binarizing function from [scikit-image](https://scikit-image.org/docs/dev/api/skimage.filters.html?highlight=otsu#skimage.filters.threshold_yen), function name: `skimage.filters.threshold_yen`.
