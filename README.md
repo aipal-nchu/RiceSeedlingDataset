@@ -11,7 +11,7 @@ A repository to open rice shoot counting dataset.
 
 ## 1. Data Download Link (Google Drive)  
 ### Orthomosaic image
->|Filename|Disk space|Image size|Spatial resolution|
+>|Filename|File size|Image size|Spatial resolution|
 >|:-:|:-:|:-:|:-:|
 >|**[2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)**|465MB|19406 x 10413| 5.23 mm/pixel |
 >|**[2018-08-14_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180814ARI80Orthomosaic)**|610MB|19876 x 10687| 5.11 mm/pixel |
@@ -73,15 +73,15 @@ To test the provided model, simply call the `tf.keras.models.load_model()` and y
 ## 4. Detection Demo Dataset
 This dataset is used for patch-based object-detection scenario.  
 - 8 images
-- 8x8 meters region
-- 1527x1527 pixels
+- 8m x 8m region
+- 1527 x 1527 pixels
 - PASCAL VOC xml format annotation
 
 **An overview of 8 detection demo images**
 <img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/DemoClip.png" width="768">
 
 
-| Image Number | Raw Image | Prediction Image | Ground Truth Image|
+| Image No. | Raw Image | Prediction Image | Ground Truth Image|
 |:-:|:-:|:-:|:-:|
 |1|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/1_GT.jpg" width="300">|
 |2|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/2_GT.jpg" width="300">|
@@ -93,7 +93,7 @@ This dataset is used for patch-based object-detection scenario.
 |8|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/8_GT.jpg" width="300">|
 
 **Comparison of Detection Result and Ground Truth**
-| Image Number | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| Image No. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |**Prediction**  |735 |1006|1037|809 |1004|1050|1017|1032|
 |**Ground truth**|898 |1000|1019|964 |971 |1002|1033|1005|
