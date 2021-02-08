@@ -4,7 +4,7 @@ This page presents the detail of data preprocessing
 ---
 
 **The workflow of semi-auto annotation**
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceShootCounting/main/images/Preprocessing-2.png" width="768">
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Preprocessing-2.png" width="768">
 
 
 
