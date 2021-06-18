@@ -1,16 +1,23 @@
 # Rice Seedling Datasets
 A repository to open rice seedling dataset.  
 
+## Publication
+The data descriptor was published on Remote Sensing, MDPI. (open access)  
+[A UAV Open Dataset of Rice Paddies for Deep Learning Practice](https://doi.org/10.3390/rs13071358)  
+
+MDPI and ACS Style  
+>Yang, M. D.; Tseng, H. H.; Hsu, Y. C.; Yang, C. Y.; Lai, M. H.; Wu, D. H. A UAV Open Dataset of Rice Paddies for Deep Learning Practice. *Remote Sens.* **2021**, 13, 1358. doi:10.3390/rs13071358
+
 ---
 
 ## Contents
-  1. [Data Download Link (Google Drive)](#1-data-download-link-google-drive)
+  1. [Data Download Link](#1-data-download-link)
   2. [Dataset of Rice Seedling Classification](#2-dataset-of-rice-seedling-classification)
   3. [Dataset of Rice Seedling Detection](#3-dataset-of-rice-seedling-detection)
   4. [CNN Classification Model](#4-a-simple-example-of-cnn-classification-model)
   5. [Detection Demo Dataset](#5-detection-demo-dataset)
 
-## 1. Data Download Link (Google Drive)  
+## 1. Data Download Link
 ### 2018 Orthomosaic image
 >|Filename|File size|Image size (pixels)|Spatial resolution (mm/pixel)|
 >|:-:|:-:|:-:|:-:|
