@@ -1,12 +1,16 @@
 # Rice Seedling Datasets
 A repository to open rice seedling dataset.  
 
-## Publication
+## Related Publications
 The data descriptor was published on Remote Sensing, MDPI. (open access)  
 [A UAV Open Dataset of Rice Paddies for Deep Learning Practice](https://doi.org/10.3390/rs13071358)  
 
-MDPI and ACS Style  
->Yang, M. D.; Tseng, H. H.; Hsu, Y. C.; Yang, C. Y.; Lai, M. H.; Wu, D. H. A UAV Open Dataset of Rice Paddies for Deep Learning Practice. *Remote Sens.* **2021**, 13, 1358. doi:10.3390/rs13071358
+An application of rice seedling detection using transfer learning was published on Remote Sensing, MDPI. (open access)  
+[Rice Seedling Detection in UAV Images Using Transfer Learning and Machine Learning](https://doi.org/10.3390/rs14122837)
+
+### MDPI and ACS Style  
+  1. Yang, M. D.; Tseng, H. H.; Hsu, Y. C.; Yang, C. Y.; Lai, M. H.; Wu, D. H. A UAV Open Dataset of Rice Paddies for Deep Learning Practice. *Remote Sens.* **2021**, 13, 1358. doi:10.3390/rs13071358  
+  2. Tseng, H. H.; Yang, M. D.; Saminathan, R.; Hsu, Y. C.; Yang, C. Y.; Wu, D. H. Rice Seedling Detection in UAV Images Using Transfer Learning and Machine Learning. *Remote Sens.* **2022**, 14, 2837. doi:10.3390/rs14122837  
 
 ---
 
@@ -69,7 +73,8 @@ MDPI and ACS Style
 
 
 
-**The number of images used for training, validation, and testing in the rice seedling dataset.**
+**The number of images used for training, validation, and testing in the rice seedling dataset.**  
+
 | Class       | Training Samples | Validation Samples | Testing Samples | Total Samples |
 |:-:|:-:|:-:|:-:|:-:|
 | **Rice Seedling**  | 22,438 | 561   | 5,048 | 28,047 |
@@ -131,7 +136,8 @@ This dataset is used for patch-based object-detection scenario.
 |7|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/7.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/7_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/7_GT.jpg" width="300">|
 |8|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/8.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/8_bbox.jpg" width="300">|<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/8_GT.jpg" width="300">|
 
-**Comparison of Detection Result and Ground Truth**
+**Comparison of Detection Result and Ground Truth** 
+ 
 | Subset No. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |**Prediction**  |735 |1006|1037|809 |1004|1050|1017|1032|
