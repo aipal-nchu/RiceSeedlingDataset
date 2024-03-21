@@ -15,48 +15,68 @@ An application of rice seedling detection using transfer learning was published 
 ---
 
 ## Contents
-  1. [Data Download Link](#1-data-download-link)
-  2. [Dataset of Rice Seedling Classification](#2-dataset-of-rice-seedling-classification)
-  3. [Dataset of Rice Seedling Detection](#3-dataset-of-rice-seedling-detection)
-  4. [CNN Classification Model](#4-a-simple-example-of-cnn-classification-model)
-  5. [Detection Demo Dataset](#5-detection-demo-dataset)
+- [Rice Seedling Datasets](#rice-seedling-datasets)
+  - [Related Publications](#related-publications)
+    - [MDPI and ACS Style](#mdpi-and-acs-style)
+  - [Contents](#contents)
+  - [1. Data Download Link](#1-data-download-link)
+    - [2018 Orthomosaic image](#2018-orthomosaic-image)
+    - [Expansion Orthomosaic image (2019-2020)](#expansion-orthomosaic-image-2019-2020)
+    - [Dataset of Rice Seedling Classification (Train-Val)](#dataset-of-rice-seedling-classification-train-val)
+    - [Dataset of Rice Seedling Detection (Train-Val)](#dataset-of-rice-seedling-detection-train-val)
+    - [Dataset of Detection Demonstration (Test)](#dataset-of-detection-demonstration-test)
+  - [2. Dataset of Rice Seedling Classification](#2-dataset-of-rice-seedling-classification)
+  - [3. Dataset of Rice Seedling Detection](#3-dataset-of-rice-seedling-detection)
+  - [4. A Simple Example of CNN Classification Model](#4-a-simple-example-of-cnn-classification-model)
+  - [5. Detection Demo Dataset](#5-detection-demo-dataset)
 
 ## 1. Data Download Link
+
+The data access is moved to the page **[Rice Seedling Dataset 水稻秧苗辨識資料集]**, powered by [NCHU Open AI Model and Dataset Platform].  
+
+You'll be asked to sign-in for the data access, while it is free to register.  
+Once you have logged in the platform, direct to the webpage and press the following botton (red rectangle highlighted).  
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_botton.png" width="768">  
+
+Then accept the license term to proceed the data access.  
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_term.png" width="768">  
+
+
 ### 2018 Orthomosaic image
 >|Filename|File size|Image size (pixels)|Spatial resolution (mm/pixel)|
 >|:-:|:-:|:-:|:-:|
->|**[2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI80Orthomosaic)**|465MB|19406 x 10413| 5.23 |
->|**[2018-08-14_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180814ARI80Orthomosaic)**|610MB|19876 x 10687| 5.11 |
->|**[2018-08-23_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180823ARI80Orthomosaic)**|557MB|18294 x 9823 | 5.55 |  
+>|**[2018-08-07_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180807ARI8020mOrthomosaic)**|465MB|19406 x 10413| 5.23 |
+>|**[2018-08-14_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180814ARI8020mOrthomosaic)**|610MB|19876 x 10687| 5.11 |
+>|**[2018-08-23_ARI80_20m_Orthomosaic.tif](https://rebrand.ly/20180823ARI8020mOrthomosaic)**|557MB|18294 x 9823 | 5.55 |  
 
 > These three links are the orthomosaic image of paddy No.80, TARI, which were in TWD97 / TM2 zone 121 (EPSG:3826) projection. The images were acquired in three consecutive growing stages in 2018.
 
 ### Expansion Orthomosaic image (2019-2020)
 >|Filename|File size|Image size (pixels)|Spatial resolution (mm/pixel)|
 >|:-:|:-:|:-:|:-:|
->|**[2019-03-26_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190326ARI78Orthomosaic)**|485MB|20192 x 10858| 5.04 |
->|**[2019-04-02_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190402ARI78Orthomosaic)**|418MB|19061 x 10250| 5.33 |
->|**[2019-08-12_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190812ARI78Orthomosaic)**|503MB|21998 x 11829| 4.62 |  
->|**[2019-08-20_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190820ARI78Orthomosaic)**|605MB|21265 x 11435| 4.78 |  
->|**[2020-03-12_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200312ARI78Orthomosaic)**|278MB|15933 x 8568 | 6.38 |  
->|**[2020-03-17_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200317ARI78Orthomosaic)**|317MB|15941 x 8572 | 6.38 |  
->|**[2020-03-26_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200326ARI78Orthomosaic)**|385MB|15962 x 8583 | 6.37 |  
->|**[2020-08-12_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200812ARI78Orthomosaic)**|330MB|15966 x 8586 | 6.37 |  
->|**[2020-08-18_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200818ARI78Orthomosaic)**|382MB|15977 x 8591 | 6.36 |  
->|**[2020-08-25_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200825ARI78Orthomosaic)**|402MB|15979 x 8593 | 6.36 |  
+>|**[2019-03-26_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190326ARI7820mOrthomosaic)**|485MB|20192 x 10858| 5.04 |
+>|**[2019-04-02_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190402ARI7820mOrthomosaic)**|418MB|19061 x 10250| 5.33 |
+>|**[2019-08-12_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190812ARI7820mOrthomosaic)**|503MB|21998 x 11829| 4.62 |  
+>|**[2019-08-20_ARI78_20m_Orthomosaic.tif](https://rebrand.ly/20190820ARI7820mOrthomosaic)**|605MB|21265 x 11435| 4.78 |  
+>|**[2020-03-12_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200312ARI7840mOrthomosaic)**|278MB|15933 x 8568 | 6.38 |  
+>|**[2020-03-17_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200317ARI7840mOrthomosaic)**|317MB|15941 x 8572 | 6.38 |  
+>|**[2020-03-26_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200326ARI7840mOrthomosaic)**|385MB|15962 x 8583 | 6.37 |  
+>|**[2020-08-12_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200812ARI7840mOrthomosaic)**|330MB|15966 x 8586 | 6.37 |  
+>|**[2020-08-18_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200818ARI7840mOrthomosaic)**|382MB|15977 x 8591 | 6.36 |  
+>|**[2020-08-25_ARI78_40m_Orthomosaic.tif](https://rebrand.ly/20200825ARI7840mOrthomosaic)**|402MB|15979 x 8593 | 6.36 |  
 
 > These 10 links are the orthomosaic image of paddy No.78, TARI, which were in TWD97 / TM2 zone 121 (EPSG:3826) projection. The images were acquired in 2019 and 2020.
 ---
 ### Dataset of Rice Seedling Classification (Train-Val)
-**[RiceSeedlingClassification_2class.tgz (uncompressed size 426MB)](https://rebrand.ly/riceseedlingclassification_2class)**
+**[RiceSeedlingClassification.tgz (uncompressed size 426MB)](https://rebrand.ly/RiceSeedlingClassification)**
 > This file includes two folders: riceseedling and arableland. Train-val and test datasets are all included.
 ---
 ### Dataset of Rice Seedling Detection (Train-Val)
-**[RiceSeedlingDetection.tgz (uncompressed size 19.1MB)](https://rebrand.ly/Riceseedlingdetection)**
+**[RiceSeedlingDetection.tgz (uncompressed size 19.1MB)](https://rebrand.ly/RiceseedlingDetectionVOC)**
 > This is a PASCAL VOC format object-detection dataset, which includes two folders: JPEGImaegs and Annotations.
 ---
 ### Dataset of Detection Demonstration (Test)
-**[RiceSeedlingDemo.tgz (uncompressed size 48.5MB)](https://rebrand.ly/Riceseedlingdemo)**
+**[RiceSeedlingDemo.tgz (uncompressed size 48.5MB)](https://rebrand.ly/RiceseedlingDemoVOC)**
 > This file contains 8 detection demo images and the corresponging PASCAL VOC xml format annotations.  
 ---
 **An overview of the region of different datasets**
@@ -143,3 +163,7 @@ This dataset is used for patch-based object-detection scenario.
 |**Prediction**  |735 |1006|1037|809 |1004|1050|1017|1032|
 |**Ground truth**|898 |1000|1019|964 |971 |1002|1033|1005|
 |**Error (%)**   |**18.15**|0.60|1.77|**16.08**|3.40|4.79|1.55|2.69|
+
+
+[Rice Seedling Dataset 水稻秧苗辨識資料集]: https://aidata.nchu.edu.tw/smarter/en/dataset/smarter_07_5d4088_0_rice_20240318_objc_detect
+[NCHU Open AI Model and Dataset Platform]: https://aidata.nchu.edu.tw/smarter/en/
