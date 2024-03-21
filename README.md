@@ -36,10 +36,10 @@ The data access is moved to the page **[Rice Seedling Dataset 水稻秧苗辨識
 
 You'll be asked to sign-in for the data access, while it is free to register.  
 Once you have logged in the platform, direct to the webpage and press the following botton (red rectangle highlighted).  
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_botton.png" width="768">  
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_botton.png" width="512">  
 
 Then accept the license term to proceed the data access.  
-<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_term.png" width="768">  
+<img src="https://raw.githubusercontent.com/aipal-nchu/RiceSeedlingDataset/main/images/Accept_term.png" width="512">  
 
 
 ### 2018 Orthomosaic image
