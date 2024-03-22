@@ -165,5 +165,5 @@ This dataset is used for patch-based object-detection scenario.
 |**Error (%)**   |**18.15**|0.60|1.77|**16.08**|3.40|4.79|1.55|2.69|
 
 
-[Rice Seedling Dataset 水稻秧苗辨識資料集]: https://aidata.nchu.edu.tw/smarter/en/dataset/smarter_07_5d4088_0_rice_20240318_objc_detect
-[NCHU Open AI Model and Dataset Platform]: https://aidata.nchu.edu.tw/smarter/en/
+[Rice Seedling Dataset 水稻秧苗辨識資料集]: https://rebrand.ly/nchu-riceseedlingdataset
+[NCHU Open AI Model and Dataset Platform]: https://rebrand.ly/nchu-aiopendata
